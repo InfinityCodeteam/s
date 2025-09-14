@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "name": "بوكيه ورد طبيعي فاخر",
+        "price": 250,
+        "category": "bouquet",
+        "image": "https://placehold.co/300x300/f8d7e6/2d4a3a?text=بوكيه+ورد+فاخر",
+        "description": "بوكيه مصمم بعناية من أجود أنواع الورد الطبيعي، مناسب للهدايا والمناسبات الخاصة."
+    },
+    {
+        "id": 2,
+        "name": "إكسيورات يدوية من الزهور المجففة",
+        "price": 180,
+        "category": "accessory",
+        "image": "https://placehold.co/300x300/f8d7e6/2d4a3a?text=إكسسوار+زهور+مجففة",
+        "description": "إكسسوارات فريدة مصنوعة يدويًا من الزهور المجففة المحفوظة بعناية."
+    },
+    {
+        "id": 3,
+        "name": "ديكور زهور مجففة بإطار خشبي",
+        "price": 350,
+        "category": "decoration",
+        "image": "https://placehold.co/300x300/f8d7e6/2d4a3a?text=ديكور+زهور+مجففة",
+        "description": "قطعة ديكور أنيقة من الزهور المجففة محفوظة في إطار خشبي فاخر."
+    },
+    {
+        "id": 4,
+        "name": "بوكيه ورد روز فاخر",
+        "price": 320,
+        "category": "bouquet",
+        "image": "https://placehold.co/300x300/f8d7e6/2d4a3a?text=بوكيه+ورد+روز",
+        "description": "بوكيه ملكي من ورد الروز الفاخر مع لمسات من الأوراق الخضراء الطبيعية."
+    },
+    {
+        "id": 5,
+        "name": "عقد من الزهور المجففة",
+        "price": 150,
+        "category": "accessory",
+        "image": "https://placehold.co/300x300/f8d7e6/2d4a3a?text=عقد+زهور+مجففة",
+        "description": "عقد أنيق مصنوع يدويًا من الزهور المجففة المحفوظة بطريقة خاصة."
+    },
+    {
+        "id": 6,
+        "name": "مزهرية زهور مجففة ديكور",
+        "price": 280,
+        "category": "decoration",
+        "image": "https://placehold.co/300x300/f8d7e6/2d4a3a?text=مزهرية+زهور+مجففة",
+        "description": "مزهرية ديكورية تحتوي على ترتيب فني من الزهور المجففة عالية الجودة."
+    }
+]

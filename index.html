@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>فن الورد والهاند ميد | حيث تتحول اللحظة إلى ذكرى خالدة</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Loader -->
+    <div id="loader">
+        <div class="flower-loader">
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+            <div class="petal"></div>
+        </div>
+    </div>
+
+    <!-- WhatsApp Float Button -->
+    <a href="#" class="whatsapp-float">
+        <i class="fab fa-whatsapp"></i>
+        <span>تواصل معنا</span>
+    </a>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="#" class="logo"><i class="fas fa-spa"></i> <span id="company-name">فلورا</span></a>
+        
+        <ul class="nav-links">
+            <li><a href="#">الرئيسية</a></li>
+            <li><a href="#products">منتجاتنا</a></li>
+            <li><a href="#about">قصتنا</a></li>
+            <li><a href="#testimonials">آراء العملاء</a></li>
+            <li><a href="#contact">اتصل بنا</a></li>
+        </ul>
+        
+        <div class="nav-icons">
+            <a href="#" class="search-btn"><i class="fas fa-search"></i></a>
+            <a href="#" class="cart-icon">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-count">0</span>
+            </a>
+        </div>
+        
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay muted loop class="hero-video">
+            <source src="" type="video/mp64">
+            Your browser does not support the video tag.
+        </video>
+        <div class="video-placeholder"></div>
+        
+        <div class="hero-content">
+            <h1 id="hero-title">فن الورد والهاند ميد، حيث تتحول اللحظة إلى ذكرى خالدة</h1>
+            <p id="hero-subtitle">بوكيهات ورد طبيعي فاخرة وأعمال يدوية متميزة تخلد أجمل اللحظات في حياتك</p>
+            <button class="cta-btn" id="hero-cta">اكتشف المجموعة</button>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="section-title">
+            <h2>منتجاتنا المميزة</h2>
+        </div>
+        
+        <div class="filter-buttons">
+            <button class="filter-btn active" data-filter="all">الكل</button>
+            <button class="filter-btn" data-filter="bouquet">بوكيهات ورد</button>
+            <button class="filter-btn" data-filter="accessory">إكسسوارات</button>
+            <button class="filter-btn" data-filter="decoration">ديكورات هاند ميد</button>
+        </div>
+        
+        <div class="search-bar">
+            <div class="search-container">
+                <input type="text" class="search-input" placeholder="ابحث عن بوكيه ورد، ديكور هاند ميد، إكسسوار..." id="searchInput">
+            </div>
+        </div>
+        
+        <div class="products-grid" id="productsGrid">
+            <!-- Products will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="section-title">
+            <h2>قصتنا</h2>
+        </div>
+        
+        <div class="about-content">
+            <div class="about-text">
+                <h2 id="about-title">من passion إلى profession</h2>
+                <p id="about-text-1">بدأت رحلتنا بشغف كبير بفنون الورد والأعمال اليدوية، حيث كنا نؤمن بأن التفاصيل الصغيرة هي التي تصنع الفارق الكبير في حياة الناس. من خلال عملنا، نحاول أن نخلق لحظات من السعادة والجمال تدوم طويلاً.</p>
+                <p id="about-text-2">كل قطعة نصنعها تحمل جزءًا من روحنا وإبداعنا، ونحرص على أن تكون فريدة ومميزة، تمامًا مثل الشخص الذي سيمتلكها. نستخدم فقط أفضل المواد والخامات لضمان الجودة والديمومة.</p>
+                <button class="cta-btn" id="about-cta">اعرف المزيد عنا</button>
+            </div>
+            
+            <div class="about-media">
+                <img src="https://placehold.co/600x400/f8d7e6/2d4a3a?text=صورة+لصاحبة+المشروع" alt="صاحبة المشروع" class="about-img">
+                <div class="ribbon-animation"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="section-title">
+            <h2>آراء عملائنا</h2>
+        </div>
+        
+        <div class="testimonials-container">
+            <!-- Testimonials will be loaded here by JavaScript -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="gold-flower gold-flower-1">
+            <i class="fas fa-leaf"></i>
+        </div>
+        <div class="gold-flower gold-flower-2">
+            <i class="fas fa-leaf"></i>
+        </div>
+        
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>عن <span id="footer-company-name">فلورا</span></h3>
+                <p id="footer-about">متخصصون في صناعة بوكيهات الورد الفاخرة والأعمال اليدوية المميزة التي تخلد أجمل اللحظات في حياتك.</p>
+                <div class="social-icons">
+                    <a href="#" id="social-instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" id="social-tiktok"><i class="fab fa-tiktok"></i></a>
+                    <a href="#" id="social-snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+                    <a href="#" id="social-twitter"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>روابط سريعة</h3>
+                <ul class="footer-links">
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#products">منتجاتنا</a></li>
+                    <li><a href="#about">قصتنا</a></li>
+                    <li><a href="#testimonials">آراء العملاء</a></li>
+                    <li><a href="#contact">اتصل بنا</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-col">
+                <h3>معلومات الاتصال</h3>
+                <p><i class="fas fa-map-marker-alt"></i> <span id="footer-address">الرياض، المملكة العربية السعودية</span></p>
+                <p><i class="fas fa-phone"></i> <span id="footer-phone">+966 12 345 6789</span></p>
+                <p><i class="fas fa-envelope"></i> <span id="footer-email">info@flora.com</span></p>
+            </div>
+            
+            <div class="footer-col">
+                <h3>النشرة البريدية</h3>
+                <p id="footer-newsletter-desc">اشترك في نشرتنا البريدية لتصلك آخر عروضنا ومنتجاتنا الجديدة</p>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="بريدك الإلكتروني">
+                    <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; <span id="current-year">2023</span> <span id="footer-copyright-name">فلورا</span>. جميع الحقوق محفوظة</p>
+        </div>
+    </footer>
+
+    <!-- Cart Sidebar -->
+    <div class="cart-sidebar">
+        <div class="cart-header">
+            <h3>سلة التسوق</h3>
+            <div class="close-cart"><i class="fas fa-times"></i></div>
+        </div>
+        
+        <div class="cart-items">
+            <!-- Cart items will be loaded here by JavaScript -->
+        </div>
+        
+        <div class="cart-total">
+            <span>المجموع:</span>
+            <span class="total-price">0 ر.س</span>
+        </div>
+        
+        <button class="checkout-btn">إتمام الشراء</button>
+    </div>
+
+    <!-- Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Petals Animation -->
+    <div class="petals"></div>
+
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav">
+        <a href="#" class="mobile-nav-item">
+            <i class="fas fa-home"></i>
+            <span>الرئيسية</span>
+        </a>
+        <a href="#products" class="mobile-nav-item">
+            <i class="fas fa-shopping-bag"></i>
+            <span>منتجات</span>
+        </a>
+        <a href="#" class="mobile-nav-item">
+            <i class="fas fa-heart"></i>
+            <span>المفضلة</span>
+        </a>
+        <a href="#contact" class="mobile-nav-item">
+            <i class="fas fa-user"></i>
+            <span>حسابي</span>
+        </a>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
